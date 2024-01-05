@@ -1,0 +1,36 @@
+@import "../main.css";
+
+span {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  margin-left: 5;
+}
+
+button {
+  font-family: sans-serif;
+  text-transform: lowercase;
+  color: rgb(217, 255, 161);
+  background-color: rgb(111, 155, 23);
+  min-width: 30;
+  min-height: 30;
+  padding: 3 10 3 8;
+  border-radius: 50;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  background-color: yellowgreen;
+  text-transform: capitalize;
+  box-shadow: 0 2 2 rgb(111, 155, 23);
+  color: rgb(208, 255, 138);
+  padding: 5 15 4 7;
+  border-radius: 100;
+  width: fit-content;
+  height: fit-content;
+  margin: 10;
+  transition: all;
+}

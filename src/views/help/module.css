@@ -11,6 +11,7 @@ button {
   text-transform: lowercase;
   color: rgb(217, 255, 161);
   background-color: rgb(111, 155, 23);
+  text-shadow: 0 0 5 greenyellow;
   min-width: 30;
   min-height: 30;
   padding: 3 10 3 8;

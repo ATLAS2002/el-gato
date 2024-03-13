@@ -9,3 +9,7 @@
 *::selection {
   color: white;
 }
+
+body {
+  overflow: hidden;
+}

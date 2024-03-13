@@ -4,10 +4,11 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "dev:views": "parcel watch -p 4000 src/views/**/*.{html,css,js,ts}",
+    "cleanup": "rm -r dist",
+    "dev:views": "parcel watch src/views/**/*.{html,css}",
     "dev:server": "tsc-watch --onSuccess \"node dist/index\"",
     "dev": "concurrently \"pnpm dev:server\" \"pnpm dev:views\"",
-    "build:views": "parcel build src/views/**/*.{html,css,js,ts}",
+    "build:views": "parcel build src/views/**/*.{html,css}",
     "build:server": "tsc",
     "build": "concurrently \"pnpm build:server\" \"pnpm build:views\""
   },

@@ -17,7 +17,10 @@
     "outDir": "dist",
     "sourceMap": true,
     /* If your code doesn't run in the DOM: */
-    "lib": ["es2022"]
+    "lib": ["es2022", "DOM"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src/**/*.ts"],
   "exclude": ["dist", "node_modules", ".parcel-cache"]
